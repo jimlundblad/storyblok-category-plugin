@@ -1,6 +1,6 @@
 /*Layout Styles*/
 .container {
-  max-width: 22rem;
+  max-width: clamp(22rem, 90vw, 1280px);
   margin: 0 auto;
   background-color: #ffffff;
   border: 1px solid var(--light);
