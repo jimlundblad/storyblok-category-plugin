@@ -17,6 +17,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended'
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
@@ -27,7 +28,7 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json', './tsconfig.node.json'],
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'jsx-a11y'],
   rules: {
     'react/prop-types': 'off',
   }

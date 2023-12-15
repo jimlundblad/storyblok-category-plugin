@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "vitest",
+    "test": "vitest watch",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && npx @storyblok/field-plugin-cli@latest deploy"
@@ -26,6 +26,7 @@
     "@vitejs/plugin-react": "^4.1.0",
     "@vitest/ui": "0.34.6",
     "eslint": "latest",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "7.30.0",
     "jsdom": "22.1.0",
     "typescript": "5.1.6",
